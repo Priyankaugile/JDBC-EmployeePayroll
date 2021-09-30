@@ -26,12 +26,5 @@ public class EmployeePayrollData {
                 ", startData=" + startData +
                 '}';
     }
-   /* @Override
-    public boolean equals(object o)
-    {
-        if (this == 0) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        EmployeePayrollData that = (EmployeePayrollData) o;
-        return id == that.id && Double.compare(that.salary, salary) == 0 && Objects.equals(name, that.name);
-    }*/
+ 
 }
